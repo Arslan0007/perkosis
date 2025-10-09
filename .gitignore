@@ -7,6 +7,7 @@ runs/detect/bib_detector_v15/*.jpg
 runs/detect/bib_detector_v17/results.csv
 runs/detect/bib_detector_v17/*.jpg
 dataset/test.jpg
-runs/detect/bib_detector_v17/weights/best1.pt
-dataset/train/label1s.cache
-runs/detect/bib_detector_v17/weights/las1t.pt
+dataset/train/labels.cache
+runs/detect/bib_detector_v17/weights/best.pt
+runs/detect/bib_detector_v17/weights/last.pt
+dataset/val/label1s.cache
