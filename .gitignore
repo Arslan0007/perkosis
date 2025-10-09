@@ -1,1 +1,9 @@
-
+.gitignore
+dataset/train/images/*.jpg
+dataset/train/labels/*.txt
+dataset/val/images/*.jpg
+dataset/val/labels/*.txt
+runs/detect/bib_detector_v15/*.jpg
+runs/detect/bib_detector_v17/results.csv
+runs/detect/bib_detector_v17/*.jpg
+dataset/test.jpg

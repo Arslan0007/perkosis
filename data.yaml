@@ -1,0 +1,15 @@
+# custom_data.yaml
+
+# The root directory of your dataset (where train/ and val/ are)
+path: C:/dev/perkosis/dataset
+
+# Relative paths to the image directories
+train: train/images 
+val: val/images
+# test: test/images # Optional
+
+# Number of classes
+nc: 1 
+
+# Class names (The index matches the class_id in the .txt files)
+names: ['bib_number']
