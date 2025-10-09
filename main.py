@@ -59,4 +59,4 @@ def find_and_read_bib(image_path):
 # CREATE A TEST IMAGE: Find a photo of a runner with a clear bib number
 # and save it in the same directory as this script as 'runner_test.jpg'.
 
-find_and_read_bib('C:/dev/perkosis/data/7.jpeg')
+find_and_read_bib('C:/dev/perkosis/dataset/test.jpg')

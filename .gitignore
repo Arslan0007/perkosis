@@ -10,4 +10,4 @@ dataset/test.jpg
 dataset/train/labels.cache
 runs/detect/bib_detector_v17/weights/best.pt
 runs/detect/bib_detector_v17/weights/last.pt
-dataset/val/label1s.cache
+dataset/val/labels.cache
