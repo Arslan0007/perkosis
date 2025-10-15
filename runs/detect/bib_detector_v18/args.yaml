@@ -2,7 +2,7 @@ task: detect
 mode: train
 model: yolov8n.pt
 data: C:/dev/perkosis/data.yaml
-epochs: 150
+epochs: 350
 time: null
 patience: 100
 batch: 8
@@ -13,7 +13,7 @@ cache: false
 device: cpu
 workers: 8
 project: null
-name: bib_detector_v17
+name: bib_detector_v18
 exist_ok: false
 pretrained: true
 optimizer: auto
@@ -103,4 +103,4 @@ auto_augment: randaugment
 erasing: 0.4
 cfg: null
 tracker: botsort.yaml
-save_dir: C:\dev\perkosis\runs\detect\bib_detector_v17
+save_dir: C:\dev\perkosis\runs\detect\bib_detector_v18

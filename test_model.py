@@ -24,10 +24,10 @@ pytesseract.pytesseract.tesseract_cmd = r'C:/Program Files/Tesseract-OCR/tessera
 
 
 # 1. Load your trained model
-model = YOLO('runs/detect/bib_detector_v17/weights/best.pt')
-
+model = YOLO('runs/detect/bib_detector_v18/weights/best.pt')
+# runs/detect/bib_detector_v1/weights/
 # 2. Define the path to the test image
-image_path = 'dataset/test.jpg' \
+image_path = 'dataset/image_11.jpg' \
 ''
 
 # 3. Run inference on the test image
@@ -148,7 +148,7 @@ else:
 
                     # 3. Draw the text onto the Pillow image
                     # use x1, y1 - (font_size * 1.5) to position the text slightly above the box
-                    text_position = (x1, y1 - int(font_size * 1.5))
+                    text_position = (x1, y1 - int(font_size * 2.5))
                     draw.text(text_position, display_text, font=font, fill=rgb_color)
 
                     # 4. Convert the Pillow image back to an OpenCV NumPy array

@@ -17,7 +17,7 @@ results = model.train(
     epochs=50, 
     imgsz=640, 
     batch=8, 
-    name='bib_detector_v1'
+    name='bib_detector_v18'
 )
 
-print("Training finished! Model weights saved in runs/detect/bib_detector_v1/weights/best.pt")
+print("Training finished! Model weights saved in runs/detect/bib_detector_v18/weights/best.pt")
